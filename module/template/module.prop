@@ -1,0 +1,6 @@
+id=zygisk_il2cpp_dumper
+name=Universal IL2CPP Dumper (Zygisk)
+version=v0.1.0
+versionCode=1
+author=you
+description=Set target package in config.txt, open the game, press Dump in the ImGui overlay.
