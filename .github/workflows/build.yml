@@ -23,7 +23,7 @@ jobs:
       - name: Fetch ShadowHook and ImGui
         run: |
           mkdir -p module/jni/external
-          git clone --depth 1 https://github.com/bytedance/ShadowHook.git module/jni/external/shadowhook_src
+          git clone --depth 1 https://github.com/bytedance/android-inline-hook.git module/jni/external/shadowhook_src
           git clone --depth 1 https://github.com/ocornut/imgui.git module/jni/external/imgui
 
       - name: Configure
